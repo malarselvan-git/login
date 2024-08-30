@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="homepage.html">
+</head>
+<body>
+    
+ 
+    <div class="container" >
+<form>
+  
+   <h1>USER LOGIN</h1>
+   <div class="icon">
+   <i class="fa-solid fa-user fa-9x"></i>
+   </div>
+   <div class="log1">
+      
+     <input type="text" id="user" placeholder="User Name">
+   </div>
+   <div class="log2">
+    
+    <input type="password" id="pass" placeholder="Password"><br>
+   <div class="forget">
+    <a href="" onclick="forget()">forget password</a>
+   </div>
+  </div>
+ <button onclick="login()" >Login</button>
+
+</form>
+
+    </div>
+  <script>
+    
+
+function login()
+{var username = document.getElementById("user").value;
+    var pass = document.getElementById("pass").value;
+    if(username == "Entri elevate" && pass == "admin123"){
+       
+    
+      alert("Login succesful");
+      window.location.href="homepage.html";
+
+    }else{
+        alert("Login failed");
+    }
+   
+}
+function forget()
+{
+ 
+let a=prompt('Enter ur E-mail id')
+
+alert('Verification code send your E-mail')
+}
+
+  </script>
+</body>
+</html>

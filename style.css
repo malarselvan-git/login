@@ -1,0 +1,58 @@
+.container{
+background-color: white;
+  display: flex;
+  justify-content: center;
+  margin: 10vh auto 0 auto;
+  width: 30%;
+  height: 500px;
+  padding: 30px;
+  box-shadow: 0px 5px 15px ;
+  border-radius: 10px;
+ 
+ 
+}
+body{
+    background-image: linear-gradient(to bottom right,white 50%,rgb(115, 111, 222) 50%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+.icon{
+    justify-items: center;
+    margin-left: 30px;
+}
+.log1,.log2{
+   margin-top: 30px; 
+   
+}
+input{
+    padding: 10px;
+
+    border: none;
+    border-bottom: 2px solid;
+    
+}
+a{
+    margin-left: 100px;
+}
+button {
+    margin-top: 20px;
+    width: 100%;
+    padding: 10px;
+    background-color: greenyellow;
+    border-radius: 20px;
+    border: none;
+    
+}
+button a{
+    margin-right: 30px;
+}
+.forget {
+    margin-top: 10px;
+}
+a{
+    text-decoration: none;
+}
+.forget a:hover{
+    color: palevioletred;
+} 
